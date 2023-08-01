@@ -25,7 +25,7 @@ public class Lelang implements Item{
             System.out.print("\nMasukan Id Barang : ");
             index = input.nextInt();
             this.idBarang.add(index); //Memasukkan data ke idBarang
-            if (index > idBarang.get(0) ){
+            if (index > idBarang.get(0) ){ //bisa memakai idBarang.size bisa juga idBarang.get(0) 
                 System.out.println("nomor barang tidak valid");
             }
             else {

@@ -13,3 +13,4 @@ public class ChildClass extends ParentClass {
         System.out.println("---- TERIMA KASIH TELAH MENGIKUTI PELELANGAN -----");
     }
 }
+
